@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>赤境游戏 | 游戏作品展示</title>
+    <meta
+      name="description"
+      content="赤境游戏作品展示页，汇集动作、冒险、策略、竞速、卡牌与浏览器游戏原型。"
+    />
+    <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="%2307080b"/><path d="M15 49 29 15h8l14 34h-9l-3-8H27l-3 8h-9Zm15-16h6l-3-9-3 9Z" fill="%23f5f5f2"/></svg>' />
+    <link rel="preload" href="assets/hero-worlds.png" as="image" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="赤境游戏首页">
+        <span class="brand-mark">AF</span>
+        <span>赤境游戏</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="主导航">
+        <a href="#games">游戏</a>
+        <a href="#news">动态</a>
+        <a href="#esports">赛事</a>
+        <a href="#studio">工作室</a>
+        <a href="#careers">加入我们</a>
+      </nav>
+
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false" data-menu-button>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <nav class="mobile-nav" aria-label="移动端导航" data-mobile-menu>
+      <a href="#games">游戏</a>
+      <a href="#news">动态</a>
+      <a href="#esports">赛事</a>
+      <a href="#studio">工作室</a>
+      <a href="#careers">加入我们</a>
+    </nav>
+
+    <main id="top">
+      <section class="hero" aria-label="赤境游戏主视觉">
+        <img class="hero-image" src="assets/hero-worlds.png" alt="赤境游戏多个原创世界的概念主视觉" />
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">原创游戏作品矩阵</p>
+          <h1>赤境游戏</h1>
+          <p class="hero-copy">
+            构建动作、策略、竞速与奇幻冒险交汇的世界，让每一款作品都有清晰的战斗节奏、角色记忆点和长期运营空间。
+          </p>
+          <div class="hero-actions" aria-label="页面快捷入口">
+            <a class="primary-action" href="#games">浏览作品</a>
+            <a class="secondary-action" href="#news">查看动态</a>
+          </div>
+        </div>
+        <aside class="hero-panel" aria-label="最新主推作品">
+          <span>最新项目</span>
+          <strong>星尘快递</strong>
+          <p>穿过碎片航道，装满星尘货舱，再把它送回轨道港。浏览器可直接试玩。</p>
+          <a href="https://maxwellzhung.github.io/stardust-courier-game/" target="_blank" rel="noopener noreferrer">
+            立即试玩
+          </a>
+        </aside>
+      </section>
+
+      <section class="ticker" aria-label="关键数据">
+        <div>
+          <strong>6</strong>
+          <span>展示作品</span>
+        </div>
+        <div>
+          <strong>3</strong>
+          <span>核心赛道</span>
+        </div>
+        <div>
+          <strong>18</strong>
+          <span>跨职能小队</span>
+        </div>
+        <div>
+          <strong>24/7</strong>
+          <span>社区反馈循环</span>
+        </div>
+      </section>
+
+      <section class="section-wrap" id="games">
+        <div class="section-heading">
+          <p class="eyebrow">游戏作品</p>
+          <h2>正在塑造的世界</h2>
+          <div class="filter-bar" aria-label="游戏分类筛选">
+            <button class="filter-button is-active" type="button" data-filter="all">全部</button>
+            <button class="filter-button" type="button" data-filter="playable">可试玩</button>
+            <button class="filter-button" type="button" data-filter="action">动作</button>
+            <button class="filter-button" type="button" data-filter="adventure">冒险</button>
+            <button class="filter-button" type="button" data-filter="strategy">策略</button>
+            <button class="filter-button" type="button" data-filter="racing">竞速</button>
+          </div>
+        </div>
+
+        <div class="game-grid" data-game-grid>
+          <article class="game-card featured playable-card" data-category="playable">
+            <img src="assets/game-stardust-courier.png" alt="星尘快递游戏首屏截图" />
+            <div class="game-card-body">
+              <span class="tag">浏览器原型 / 飞船航行</span>
+              <h3>星尘快递</h3>
+              <p>装满星尘货舱，穿过碎片航道并送回右下角轨道港。每次交付都会打开更危险的一段航线。</p>
+              <a class="card-action" href="https://maxwellzhung.github.io/stardust-courier-game/" target="_blank" rel="noopener noreferrer">
+                立即试玩
+              </a>
+            </div>
+          </article>
+
+          <article class="game-card" data-category="action">
+            <img src="assets/game-night-circuit.png" alt="Night Circuit 游戏封面" />
+            <div class="game-card-body">
+              <span class="tag">动作 / PC / 主机</span>
+              <h3>Night Circuit</h3>
+              <p>穿过无人机搜索灯与雨夜高架，在垂直城市里完成潜入、追逐和精确反击。</p>
+            </div>
+          </article>
+
+          <article class="game-card" data-category="adventure">
+            <img src="assets/game-verdant-oath.png" alt="Verdant Oath 游戏封面" />
+            <div class="game-card-body">
+              <span class="tag">合作冒险 / PC</span>
+              <h3>Verdant Oath</h3>
+              <p>三人小队探索会呼吸的古代森林，与巨像守护者一起修复破碎群岛。</p>
+            </div>
+          </article>
+
+          <article class="game-card" data-category="strategy">
+            <img src="assets/game-iron-tide.png" alt="Iron Tide 游戏封面" />
+            <div class="game-card-body">
+              <span class="tag">海战策略 / PC</span>
+              <h3>Iron Tide</h3>
+              <p>调度移动要塞舰队，在风暴、补给线与炮火角度之间争夺海域控制权。</p>
+            </div>
+          </article>
+
+          <article class="game-card" data-category="racing">
+            <img src="assets/game-solar-rush.png" alt="Solar Rush 游戏封面" />
+            <div class="game-card-body">
+              <span class="tag">竞速 / 主机</span>
+              <h3>Solar Rush</h3>
+              <p>磁悬浮赛车穿越沙漠峡谷，围绕漂移蓄能、赛道选择与车队配合展开。</p>
+            </div>
+          </article>
+
+          <article class="game-card" data-category="strategy">
+            <img src="assets/game-ember-archive.png" alt="Ember Archive 游戏封面" />
+            <div class="game-card-body">
+              <span class="tag">卡牌策略 / 移动端</span>
+              <h3>Ember Archive</h3>
+              <p>在温暖的档案工坊里组合卡组、锻造微型王国，并让每次选择改变战局。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="news-section" id="news">
+        <div class="section-heading compact">
+          <p class="eyebrow">最新动态</p>
+          <h2>开发日志与社区消息</h2>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card">
+            <span>可试玩原型</span>
+            <h3>《星尘快递》浏览器版本已经上线</h3>
+            <p>飞船航行、星尘收集、能量护盾、改装阶数和本地排行榜已经可以直接体验。</p>
+          </article>
+          <article class="news-card">
+            <span>开发日志</span>
+            <h3>《Night Circuit》移动系统完成第二轮手感调校</h3>
+            <p>冲刺、滑索与墙面转向现在共享同一套动量曲线，战斗镜头也同步更新。</p>
+          </article>
+          <article class="news-card">
+            <span>美术更新</span>
+            <h3>森林守护者从单体 Boss 改为可交互地貌</h3>
+            <p>《Verdant Oath》的巨像将参与解谜、战斗掩护与剧情抉择。</p>
+          </article>
+          <article class="news-card">
+            <span>社区测试</span>
+            <h3>《Solar Rush》开启赛道读秒与回放系统内部测试</h3>
+            <p>团队正在验证多人房间稳定性、计时精度和观赛镜头节奏。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split-section" id="esports">
+        <div class="split-copy">
+          <p class="eyebrow">赛事生态</p>
+          <h2>从核心玩法开始设计观赛体验</h2>
+          <p>
+            竞技作品从原型阶段就同步考虑可读性、回放、数据面板与社区赛事工具，让玩家能玩懂，也能看懂。
+          </p>
+        </div>
+        <div class="schedule-list" aria-label="赛事计划">
+          <div>
+            <span>Q3</span>
+            <strong>Solar Rush 竞速表演赛</strong>
+          </div>
+          <div>
+            <span>Q4</span>
+            <strong>Night Circuit 潜入挑战周</strong>
+          </div>
+          <div>
+            <span>2027</span>
+            <strong>Iron Tide 社区舰队联赛</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="studio-band" id="studio">
+        <div class="studio-copy">
+          <p class="eyebrow">工作室方法</p>
+          <h2>小队负责制，长期运营心智</h2>
+          <p>
+            每个项目由制作、玩法、叙事、美术、技术和社区组成稳定小队。我们用可玩的原型验证想法，再把玩家反馈带回版本节奏。
+          </p>
+        </div>
+        <div class="principles">
+          <div>
+            <strong>玩法先行</strong>
+            <span>每个系统必须能被玩家快速理解，并在高水平下保留深度。</span>
+          </div>
+          <div>
+            <strong>视觉识别</strong>
+            <span>世界观、角色轮廓和界面语言共同服务游戏记忆点。</span>
+          </div>
+          <div>
+            <strong>社区共创</strong>
+            <span>公开测试、版本说明和创作者工具构成长期沟通机制。</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="careers" id="careers">
+        <div>
+          <p class="eyebrow">加入我们</p>
+          <h2>一起把下一个世界做成玩家会记住的地方</h2>
+        </div>
+        <a class="primary-action" href="mailto:join@arcflare.example">查看开放岗位</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 赤境游戏 Arcflare Games</span>
+      <span>原创概念展示站，未使用第三方游戏素材。</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
